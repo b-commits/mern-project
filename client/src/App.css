@@ -1,0 +1,159 @@
+nav {
+  display: flex;
+  justify-content: right;
+  margin-right: 446px;
+  align-items: center;
+  background-color: #1f47a5;
+  color: white;
+  height: 250px;
+}
+
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #1f47a5;
+}
+
+#r2 {
+  display: flex;
+  justify-content: center;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  height: 600px;
+}
+
+.navLink {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  list-style: none;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-li {
+  margin-right: 100px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #c224ff;
+}
+
+.login-form {
+  margin-left: 1050px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #c224ff;
+}
+
+.login-input {
+  background-color: #1f6aff;
+  border-color: #c224ff;
+}
+
+#callToAction {
+  margin-left: 990px;
+  font-size: 36px;
+  font-weight: bolder;
+  color: #c224ff;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  height: 800px;
+  background-color: #1f6aff;
+  color: #ffffff;
+}
+
+#register {
+  margin-left: 1150px;
+  color: #c224ff;
+  font-weight: bolder;
+}
+
+#alreadyhave {
+  margin-left: -180px;
+  font-weight: bolder;
+}
+
+.adminPanel {
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+}
+
+.star {
+  cursor: pointer;
+  pointer-events: auto;
+}
+
+.welcomeToThe {
+  font-size: 64px;
+  color: #1f6aff;
+}
+
+.addAlbum {
+  font-size: 64px;
+  color: #1f6aff;
+}
+
+.banUser {
+  font-size: 64px;
+  color: #1f6aff;
+}
+
+.admin-input {
+  color: #1f6aff;
+}
+
+.albumCard {
+  height: 300px;
+  width: 50%;
+  margin-left: 600px;
+  /* border: 2px solid #c224ff; */
+  color: #ffffff;
+}
+
+.albumTitle {
+  font-size: 48px;
+  color: #1f6aff;
+  font-weight: bold;
+}
+
+.bandName {
+  font-size: 48px;
+  float: left;
+  color: #1f6aff;
+}
+
+.rating {
+  color: #c224ff;
+  clear: both;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.stars {
+  margin-left: 900px;
+}
+
+.searcher {
+  margin-left: 600px;
+  height: 50px;
+  width: 50%;
+}
+
+.welcomeUser {
+  margin-left: 600px;
+  color: #c224ff;
+  font-size: 64px;
+}
