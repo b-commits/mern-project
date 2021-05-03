@@ -69,11 +69,6 @@ function Home() {
         <button className="btn btn-primary" onClick={handleRegister}>
           Sign up
         </button>
-        <br />
-        <br />
-        <br></br>
-        <br></br>
-        <br></br>
         <h1 id="alreadyhave">
           Already have an account? <Link to="/">Log in!</Link>
         </h1>
