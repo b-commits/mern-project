@@ -26,12 +26,7 @@ function Admin() {
 
   return (
     <div className="adminPanel">
-      <br />
-      <br />
-      <br />
-      <br />
       <p className="welcomeToThe">Welcome to the admin panel!</p>
-      <br></br>
       <div className="addAlbum">
         <h1> Add an album!</h1>
         <h2>Title...</h2>
@@ -41,7 +36,6 @@ function Admin() {
           value={title}
           onChange={(e) => setTitle(e.target.value)}
         ></input>
-        <br></br>
         <h2>Band...</h2>
         <input
           className="admin-input"
@@ -49,7 +43,6 @@ function Admin() {
           value={band}
           onChange={(e) => setBand(e.target.value)}
         ></input>
-        <br />
         <button
           className="btn btn-primary"
           type="submit"
